@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jackbmc</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/media/favicon.svg">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/vendor/sal.css">
+    <link rel="stylesheet" href="assets/css/vendor/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/vendor/green-audio-player.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/odometer-theme-default.css">
+
+    <!-- Site Stylesheet -->
+    <link rel="stylesheet" href="assets/css/app.css">
+
+</head>
+
+<body class="sticky-header onepage-template">
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  	<![endif]-->
+    <a href="#main-wrapper" id="backto-top" class="back-to-top">
+        <i class="far fa-angle-double-up"></i>
+    </a>
+
+    <!-- Preloader Start Here -->
+    <div id="preloader"></div>
+    <!-- Preloader End Here -->
+
+    <div class="my_switcher d-none d-lg-block">
+        <ul>
+            <li title="Light Mode">
+                <a href="javascript:void(0)" class="setColor light" data-theme="light">
+                    <i class="fal fa-lightbulb-on"></i>
+                </a>
+            </li>
+            <li title="Dark Mode">
+                <a href="javascript:void(0)" class="setColor dark" data-theme="dark">
+                    <i class="fas fa-moon"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Case Study Modal Box -->
+    <div class="op-case-modal op-modal-wrap">
+        <div class="op-modal-inner">
+            <button class="close"><i class="far fa-times"></i></button>
+            <div class="op-modal-content">
+                <div class="case-content"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Case Study Modal Box -->
+
+    <!-- Portfolio Modal Box -->
+    <div class="op-portfolio-modal op-modal-wrap">
+        <div class="op-modal-inner">
+            <button class="close"><i class="far fa-times"></i></button>
+            <div class="op-modal-content">
+                <div class="portfolio-thumbnail"></div>
+                <div class="portfolio-content"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal Box -->
+
+    <!-- Blog Modal Box -->
+    <div class="op-blog-modal op-modal-wrap">
+        <div class="op-modal-inner">
+            <button class="close"><i class="far fa-times"></i></button>
+            <div class="op-modal-content">
+                <div class="post-thumbnail"></div>
+                <div class="post-content"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog Modal Box -->
+
+    <div id="main-wrapper" class="main-wrapper">
+
+
+        <!--=====================================-->
+        <!--=        Header Area Start       	=-->
+        <!--=====================================-->
+        <header class="header axil-header header-style-2">
+            <div id="axil-sticky-placeholder"></div>
+            <div class="axil-mainmenu">
+                <div class="container-fluid">
+                    <div class="header-navbar">
+                        <div class="header-logo">
+                            <a href="onepage-2.html"><img class="light-version-logo" src="assets/media/logo-2.svg" alt="logo"></a>
+                            <a href="onepage-2.html"><img class="dark-version-logo" src="assets/media/logo-3.svg" alt="logo"></a>
+                        </div>
+                        <div class="header-main-nav">
+                            <!-- Start Mainmanu Nav -->
+                            <nav class="mainmenu-nav" id="mobilemenu-popup">
+                                <div class="d-block d-lg-none">
+                                    <div class="mobile-nav-header">
+                                        <div class="mobile-nav-logo">
+                                            <a href="onepage-2.html">
+                                                <img class="light-mode" src="assets/media/logo-2.svg" alt="Site Logo">
+                                                <img class="dark-mode" src="assets/media/logo-3.svg" alt="Site Logo">
+                                            </a>
+                                        </div>
+                                        <button class="mobile-menu-close" data-bs-dismiss="offcanvas"><i class="fas fa-times"></i></button>
+                                    </div>
+                                </div>
+                                <ul class="mainmenu" id="onepagenav">
+                                    <li>
+                                        <a href="#op-home">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#op-service">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#op-portfolio">Portfolio</a>
+                                    </li>
+                                    <li>
+                                        <a href="#op-contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <!-- End Mainmanu Nav -->
+                        </div>
+                        <div class="header-action">
+                            <ul class="list-unstyled">
+                                <li class="header-btn d-lg-block d-none">
+                                    <a href="#op-contact" class="axil-btn btn-fill-primary">Let's Talk</a>
+                                </li>
+                                <li class="mobile-menu-btn sidemenu-btn d-lg-none d-block">
+                                    <button class="btn-wrap btn-dark" data-bs-toggle="offcanvas" data-bs-target="#mobilemenu-popup">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </button>
+                                </li>
+                                <li class="my_switcher d-block d-lg-none">
+                                    <ul>
+                                        <li title="Light Mode">
+                                            <a href="javascript:void(0)" class="setColor light" data-theme="light">
+                                                <i class="fal fa-lightbulb-on"></i>
+                                            </a>
+                                        </li>
+                                        <li title="Dark Mode">
+                                            <a href="javascript:void(0)" class="setColor dark" data-theme="dark">
+                                                <i class="fas fa-moon"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--=====================================-->
+        <!--=        Banner Area Start         =-->
+        <!--=====================================-->
+        <section class="banner banner-style-2" id="op-home">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="banner-content" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
+                            <h1 class="title">Web Developer &amp;  Graphic Designer</h1>
+                            <a href="#op-portfolio" class="axil-btn btn-fill-white btn-large">View Showcase</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="list-unstyled shape-group-18">
+                <li class="shape shape-1" data-sal="slide-left" data-sal-duration="1000" data-sal-delay="100"><img src="assets/media/banner/banner-shape-1.png" alt="Shape"></li>
+                <li class="shape shape-2" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="100"><img src="assets/media/banner/banner-shape-2.png" alt="Shape"></li>
+                <li class="shape shape-3" data-sal="zoom-in" data-sal-duration="500" data-sal-delay="600"><img src="assets/media/others/bubble-16.png" alt="Shape"></li>
+                <li class="shape shape-4" data-sal="zoom-in" data-sal-duration="500" data-sal-delay="600"><img src="assets/media/others/bubble-15.png" alt="Shape"></li>
+                <li class="shape shape-5" data-sal="zoom-in" data-sal-duration="500" data-sal-delay="600"><img src="assets/media/others/bubble-14.png" alt="Shape"></li>
+                <li class="shape shape-6" data-sal="zoom-in" data-sal-duration="500" data-sal-delay="600"><img src="assets/media/others/bubble-16.png" alt="Shape"></li>
+                <li class="shape shape-7" data-sal="slide-down" data-sal-duration="500" data-sal-delay="600"><img src="assets/media/others/bubble-26.png" alt="Shape"></li>
+            </ul>
+        </section>
+        <!--=====================================-->
+        <!--=        Service Area Start         =-->
+        <!--=====================================-->
+        <section class="section section-padding" id="op-service">
+            <div class="container">
+                <div class="section-heading heading-left mb--20 mb_md--70">
+                    <span class="subtitle">What I Can Do For You</span>
+                    <h2 class="title">Services I can <br> help you with</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 mt--200 mt_md--0" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                        <div class="services-grid service-style-2">
+                            <div class="thumbnail">
+                                <img src="assets/media/icon/icon-27.png" alt="icon">
+                            </div>
+                            <div class="content">
+                                <h5 class="title">Programming</h5>
+                                <p>Proficient in a variety of programming languages.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt--100 mt_md--0" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <div class="services-grid service-style-2 active">
+                            <div class="thumbnail">
+                                <img src="assets/media/icon/icon-2.png" alt="icon">
+                            </div>
+                            <div class="content">
+                                <h5 class="title">Design</h5>
+                                <p>Experience with editing software and visual design principles.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                        <div class="services-grid service-style-2">
+                            <div class="thumbnail">
+                                <img src="assets/media/icon/icon-6.png" alt="icon">
+                            </div>
+                            <div class="content">
+                                <h5 class="title">Photography and Videography</h5>
+                                <p>Efficient deployment of creative techniques to enhance your business.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="shape-group-7 list-unstyled">
+                <li class="shape shape-1"><img src="assets/media/others/circle-2.png" alt="circle"></li>
+                <li class="shape shape-2"><img src="assets/media/others/bubble-2.png" alt="Line"></li>
+                <li class="shape shape-3"><img src="assets/media/others/bubble-1.png" alt="Line"></li>
+            </ul>
+        </section>
+        <!--=====================================-->
+        <!--=        Project Area Start         =-->
+        <!--=====================================-->
+        <section class="section section-padding-2 bg-color-light" id="op-portfolio">
+            <div class="container">
+                <div class="section-heading heading-left">
+                    <span class="subtitle">Past Projects</span>
+                    <h2 class="title">Some of my <br> best work.</h2>
+                </div>
+                <div class="axil-isotope-wrapper">
+                    <div class="row row-35 isotope-list">
+                        <div class="col-md-6 project mobile">
+                            <div class="project-grid">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <img src="assets/media/project/project-4.png" alt="project">
+                                    </a>
+                                    <img class="modal-thumb" src="assets/media/project/project-4.png" alt="project">
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="#">Project Title</a></h4>
+                                    <span class="subtitle">Project Subtitle</span>
+                                    <div class="details-description">
+                                        <p>Paragraph 1</p>
+                                        <p>Paragraphy 2</p>
+                                        <div class="project-share">
+                                            <h6 class="share-label">Share:</h6>
+                                            <ul class="social-list list-unstyled">
+                                                <li><a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                                                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 project mobile">
+                            <div class="project-grid">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <img src="assets/media/project/project-4.png" alt="project">
+                                    </a>
+                                    <img class="modal-thumb" src="assets/media/project/project-4.png" alt="project">
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="#">Project Title</a></h4>
+                                    <span class="subtitle">Project Subtitle</span>
+                                    <div class="details-description">
+                                        <p>Paragraph 1</p>
+                                        <p>Paragraphy 2</p>
+                                        <div class="project-share">
+                                            <h6 class="share-label">Share:</h6>
+                                            <ul class="social-list list-unstyled">
+                                                <li><a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                                                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 project mobile">
+                            <div class="project-grid">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <img src="assets/media/project/project-4.png" alt="project">
+                                    </a>
+                                    <img class="modal-thumb" src="assets/media/project/project-4.png" alt="project">
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="#">Project Title</a></h4>
+                                    <span class="subtitle">Project Subtitle</span>
+                                    <div class="details-description">
+                                        <p>Paragraph 1</p>
+                                        <p>Paragraphy 2</p>
+                                        <div class="project-share">
+                                            <h6 class="share-label">Share:</h6>
+                                            <ul class="social-list list-unstyled">
+                                                <li><a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                                                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 project mobile">
+                            <div class="project-grid">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <img src="assets/media/project/project-4.png" alt="project">
+                                    </a>
+                                    <img class="modal-thumb" src="assets/media/project/project-4.png" alt="project">
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="#">Project Title</a></h4>
+                                    <span class="subtitle">Project Subtitle</span>
+                                    <div class="details-description">
+                                        <p>Paragraph 1</p>
+                                        <p>Paragraphy 2</p>
+                                        <div class="project-share">
+                                            <h6 class="share-label">Share:</h6>
+                                            <ul class="social-list list-unstyled">
+                                                <li><a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                                                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                                                <li><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="shape-group-7 list-unstyled">
+                <li class="shape shape-1"><img src="assets/media/others/circle-2.png" alt="circle"></li>
+                <li class="shape shape-2"><img src="assets/media/others/bubble-2.png" alt="Line"></li>
+                <li class="shape shape-3"><img src="assets/media/others/bubble-1.png" alt="Line"></li>
+            </ul>
+        </section>
+        <!--=====================================-->
+        <!--=        Counter Up Area Start      =-->
+        <!--=====================================-->
+
+        <!--=====================================-->
+        <!--=        Testimonial Area Start      =-->
+        <!--=====================================-->
+       
+        <!--=====================================-->
+        <!--=        Brand Area Start       	=-->
+        <!--=====================================-->
+       <!-- <section class="section section-padding bg-color-dark">
+            <div class="container">
+                <div class="section-heading heading-light-left">
+                    <span class="subtitle">Gallery</span>
+                    <h2 class="title">Photography Showcase</h2>
+                    <p></p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500">
+                        <div class="brand-grid active">
+                            <img src="assets/media/brand/brand-1.png" alt="Brand">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100">
+                        <div class="brand-grid">
+                            <img src="assets/media/brand/brand-2.png" alt="Brand">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="200">
+                        <div class="brand-grid">
+                            <img src="assets/media/brand/brand-3.png" alt="Brand">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300">
+                        <div class="brand-grid">
+                            <img src="assets/media/brand/brand-4.png" alt="Brand">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400">
+                        <div class="brand-grid">
+                            <img src="assets/media/brand/brand-5.png" alt="Brand">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500">
+                        <div class="brand-grid">
+                            <img src="assets/media/brand/brand-6.png" alt="Brand">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="600">
+                        <div class="brand-grid">
+                            <img src="assets/media/brand/brand-7.png" alt="Brand">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="700">
+                        <div class="brand-grid">
+                            <img src="assets/media/brand/brand-8.png" alt="Brand">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="list-unstyled shape-group-10">
+                <li class="shape shape-1"><img src="assets/media/others/line-9.png" alt="Circle"></li>
+            </ul>
+        </section>
+        -->
+        <!--=====================================-->
+        <!--=        Blog Area Start       	    =-->
+        <!--=====================================-->
+        <section class="section section-padding-equal" id="op-blog">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="subtitle">What's Going On</span>
+                    <h2 class="title">Latest stories</h2>
+                    <p>News From Abstrak And Around The World Of Web Design And Complete Solution of Online Digital Marketing </p>
+                </div>
+                <div class="row g-0">
+                    <div class="col-xl-6" data-sal="slide-right" data-sal-duration="800" data-sal-delay="100">
+                        <div class="blog-list active">
+                            <div class="post-thumbnail">
+                                <a href="#"><img src="assets/media/blog/blog-1.png" alt="Blog Post"></a>
+                                <img class="modal-thumb" src="assets/media/blog/blog-10.png" alt="Blog Post">
+                            </div>
+                            <div class="post-content">
+                                <h5 class="title"><a href="#">Blog Title</a></h5>
+                                <p>Short Description</p>
+                                <a href="#" class="more-btn">Learn more<i class="far fa-angle-right"></i></a>
+                                <div class="details-description">
+                                    <p>Main Content</p>
+                                    <div class="blog-share">
+                                        <h6 class="share-label">Share:</h6>
+                                        <ul class="social-list list-unstyled">
+                                            <li><a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="shape-group-1 list-unstyled">
+                <li class="shape shape-1"><img src="assets/media/others/bubble-1.png" alt="bubble"></li>
+                <li class="shape shape-2"><img src="assets/media/others/line-1.png" alt="bubble"></li>
+                <li class="shape shape-3"><img src="assets/media/others/line-2.png" alt="bubble"></li>
+                <li class="shape shape-4"><img src="assets/media/others/bubble-2.png" alt="bubble"></li>
+            </ul>
+        </section>
+        <!--=====================================-->
+        <!--=        Contact Area Start       	=-->
+        <!--=====================================-->
+        <section class="section-padding bg-color-dark" id="op-contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6" data-sal="slide-up" data-sal-duration="1000">
+                        <div class="contact-address mb--30">
+                            <div class="section-heading heading-light-left">
+                                <span class="subtitle">Interested?</span>
+                                <h2 class="title">Let’s work together</h2>
+                            </div>
+                            <div class="address-list">
+                                <div class="address">
+                                    <h6 class="title">Mail</h6>
+                                    <p><a href="mailto:admin@jackbmc.com">admin@jackbmc.com</a></p>
+                                </div>
+                                <div class="address">
+                                    <h6 class="title">Phone</h6>
+                                    <p><a href="tel:+61 418 472 208">+61 418 472 208</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=====================================-->
+        <!--=     Call To Action Area Start     =-->
+        <!--=====================================-->
+
+        <!--=====================================-->
+        <!--=        Footer Area Start       	=-->
+        <!--=====================================-->
+        <footer class="footer-area">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="footer-social-link">
+                        <ul class="list-unstyled">
+                            <li><a href="https://facebook.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://twitter.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="200"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.pinterest.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="https://www.linkedin.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.instagram.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://vimeo.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="600"><i class="fab fa-vimeo-v"></i></a></li>
+                            <li><a href="https://dribbble.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="700"><i class="fab fa-dribbble"></i></a></li>
+                            <li><a href="https://www.behance.net/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="800"><i class="fab fa-behance"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="footer-copyright">
+                                <span class="copyright-text">© 2022. All rights reserved by <a href="https://Jackbmc.com/">Jackbmc</a>.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+    <!-- Jquery Js -->
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/isotope.pkgd.min.js"></script>
+    <script src="assets/js/vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/vendor/odometer.min.js"></script>
+    <script src="assets/js/vendor/jquery-appear.js"></script>
+    <script src="assets/js/vendor/slick.min.js"></script>
+    <script src="assets/js/vendor/sal.js"></script>
+    <script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/vendor/js.cookie.js"></script>
+    <script src="assets/js/vendor/jquery.style.switcher.js"></script>
+    <script src="assets/js/vendor/jquery.countdown.min.js"></script>
+    <script src="assets/js/vendor/tilt.js"></script>
+    <script src="assets/js/vendor/green-audio-player.min.js"></script>
+    <script src="assets/js/vendor/jquery.nav.js"></script>
+
+    <!-- Site Scripts -->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
